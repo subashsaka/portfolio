@@ -24,6 +24,12 @@
         .sec1{
             align-items: center;
         }
+        
+        .coco{
+            background-image: linear-gradient(90deg, #8EC5FC 0%, #E0C3FC 100%);
+            -webkit-background-clip: text;
+            -webkit-text-fill-color: transparent;
+        }
         #sec1 img{
             height: 550px;
             width: 430px;
@@ -45,20 +51,25 @@
             -webkit-transform: scale(1.5); /* Safari 3-8 */
             transform: scale(1.1); 
         }
-        @media screen and (max-width: 768px){
-        #sec1 img{
-            height: 350px;
-            width: 300px;
-            border-radius: 50;
-            margin-left: 30px;
-        }
-        }
+
+        /* media query start here*/
         @media screen and (max-width: 768px){
             .navbar{
                 display: flex;
                 flex-direction: row;
                 gap: 1rem;
                 width: auto;
+            }
+            #sec1 img{
+                height: 350px;
+                width: 300px;
+                border-radius: 50;
+                margin-left: 30px;
+            }
+            .coco{
+                background-image: linear-gradient(90deg, #8EC5FC 0%, #E0C3FC 100%);
+                -webkit-background-clip: text;
+                -webkit-text-fill-color: transparent;
             }
             .intro{
                 text-align: center;
@@ -84,6 +95,8 @@
                 gap: 1rem;    
             }
         }
+        /* media query end here*/
+
         .intro{
             text-align: center;
             color: #fff;
@@ -264,10 +277,11 @@
             -ms-transform: scale(1.8); /* IE 9 */
             -webkit-transform: scale(1.5); /* Safari 3-8 */
             transform: scale(1.2); 
+            box-shadow: 0 8px 32px 0 rgba(15, 27, 200, 0.37);
         }
         .resume{
             height: 180px;
-            width: 200px;
+            width: 190px;
             border-radius: 8px;
             margin-top: 35px;
         }
@@ -303,7 +317,7 @@
             background:black; 
         }
     #cirt #projects .project1 .projcard , p , .resumesection {
-        animation: cssscrollreveal  ease-in-out both;
+        animation: cssscrollreveal  ease-in-out;
         animation-timeline: view();
         animation-range: entry 15% cover 30%;
     }
@@ -318,7 +332,7 @@
         animation-range: entry 15% cover 30%;
     }
     .message , .nun , .Education{
-        animation: cssscrollreveal  ease-in-out both;
+        animation: cssscrollreveal  ease-in-out ;
         animation-timeline: view();
         animation-range: entry 15% cover 30%;   
     }
