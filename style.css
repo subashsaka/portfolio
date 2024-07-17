@@ -94,6 +94,12 @@
                 align-items: center;
                 gap: 1rem;    
             }
+            .sec5{
+                background-image: url(./images/image7.jpg);
+                background-size: cover;
+                background-repeat: no-repeat;
+                background-position: center;
+            }
         }
         /* media query end here*/
 
@@ -207,6 +213,11 @@
             justify-content: space-evenly;
             flex-wrap: wrap;
             gap: 4rem;
+        }
+        .sec5{
+            background-image: url(./images/image7.jpg);
+            background-size: cover;
+            background-position: center;
         }
         .touch{
             margin-top: 40px;
