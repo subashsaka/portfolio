@@ -190,9 +190,9 @@
             text-align: center;
         }
         .projcard{
-            height: 190px;
-            width: 250px;
-            border-radius: 8px;
+            height: 200px;
+            width: 300px;
+            border-radius: 5px;
             border: none;
             opacity: 0.8;
             transition: transform .6s;
@@ -200,17 +200,21 @@
         .projectcard{
             background-color:#333333;
             border-radius: 8px;
-            padding: 30px;
+            padding: 20px;
             line-height: 1.5em;
             font-size: 20px;
             box-shadow: 0 8px 32px 0 rgba(15, 27, 200, 0.37);
             transition: 0.5s;
         }
-
+        .content{
+            font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+            color: #fff;
+            text-align: left;
+        }
         .project1 p{
             color:white ;
-            text-align: center;
-            font-size: 20px;
+            text-align:left;
+            font-size: 15px;
         }
         #projects{
             display: flex;
