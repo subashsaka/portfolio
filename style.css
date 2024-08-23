@@ -197,12 +197,16 @@
             opacity: 0.8;
             transition: transform .6s;
         }
-        .projcard:hover{
-            -ms-transform: scale(1.8); /* IE 9 */
-            -webkit-transform: scale(1.5); /* Safari 3-8 */
-            transform: scale(1.2); 
-            opacity: 1;
+        .projectcard{
+            background-color:#333333;
+            border-radius: 8px;
+            padding: 30px;
+            line-height: 1.5em;
+            font-size: 20px;
+            box-shadow: 0 8px 32px 0 rgba(15, 27, 200, 0.37);
+            transition: 0.5s;
         }
+
         .project1 p{
             color:white ;
             text-align: center;
