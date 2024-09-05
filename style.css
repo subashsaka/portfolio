@@ -10,6 +10,38 @@ a{
     font-size: 18px;
     
 }
+.fa {
+padding: 10px;
+font-size: 20px;
+width: 60px;
+text-align: center;
+text-decoration: none;
+margin: 5px 2px;
+} 
+.fa:hover {
+    -ms-transform: scale(1.8); /* IE 9 */
+    -webkit-transform: scale(1.5); /* Safari 3-8 */
+    transform: scale(1.1); 
+    box-shadow: 0 8px 32px 0 rgba(255, 255, 255, 0.37);
+    color: black;
+}
+.fa-facebook {
+background: #3B5998;
+color: white;
+}
+.fa-linkedin {
+background: #007bb5;
+color: white;
+}
+.fa-instagram {
+background: #262a2d;
+color: white;
+}
+.fa-twitter {
+background: #008efa;
+color: white;
+}
+
 .navbar{
     position: sticky;
     top: 0;
@@ -142,9 +174,6 @@ margin-top:10px;
 }
 hr{
     margin-top: 50px;
-}
-a:hover{
-    color: #fd0202;
 }
 #sec1{
     display: flex;
