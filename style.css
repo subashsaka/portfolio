@@ -10,6 +10,8 @@ a{
     font-size: 18px;
     
 }
+
+
 .fa {
 padding: 10px;
 font-size: 20px;
@@ -174,6 +176,8 @@ margin-top:10px;
 }
 hr{
     margin-top: 50px;
+    color: white;
+    border: 3px solid rgb(0, 234, 255);
 }
 #sec1{
     display: flex;
@@ -341,14 +345,17 @@ hr{
     font-weight: bold;
 }
 #input-submit:hover{
-    background-color: #00aaff;
+    background-color: #5b39e4;
     transition: 0.5s;
+    border: solid 4px rgb(14, 12, 12);
+    color: rgb(255, 255, 255);
 }
 .sub{
     display: flex;
     justify-content: center;
     margin-top: 30px;
 }
+
 html {
     scroll-behavior: smooth;
 }
